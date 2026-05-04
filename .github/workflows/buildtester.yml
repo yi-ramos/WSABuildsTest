@@ -129,7 +129,7 @@ jobs:
       - name: Pass to Windows 💸
         uses: actions/cache/save@v5
         with:
-          path: MagiskOnWSA/output
+          path: MagiskOnWSAOld/output
           key: ${{ steps.wsa.outputs.artifact }}-${{ steps.date.outputs.date }}
           enableCrossOsArchive: true
 
